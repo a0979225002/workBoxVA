@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": [ "es2015", "es2017", "dom" ],
+    "target": "es5",
+    "outDir": "temp/vscode-dist",
+    "allowJs": true,                            //允許編譯javascript文件。
+    "declaration": true,                        //生成相應的.d.ts文件。
+    "strict": false,                            //啟用所有嚴格類型檢查選項
+    "experimentalDecorators": true,             //打開裝飾器功能
+    "emitDecoratorMetadata": true,              //能讀取元數據,裝飾器使用
+    "skipLibCheck": true,                       //忽略所有的聲明檔（）的類型檢查。*.d.ts
+    "forceConsistentCasingInFileNames": true,   //禁止對同一個文件的不一致的引用
+    "isolatedModules": false,                   //將每個文件作為單獨的模塊（與“ts.transpileModule”類似）。
+    "downlevelIteration" : true,                //允許for of 迭代
+    "noEmitHelpers" : false,                    //不在輸出文件中生成用戶自定義的幫助函數代碼，如__extends
+  },
+  "types": [
+    "./@types/creator",
+    "./@types/global",
+    "./@types/fcc-framework",
+    "./@types/bigWinTemplate",
+    "node"
+  ],
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "library",
+    "local",
+    "temp",
+    "build",
+    "settings"
+  ]
+}
