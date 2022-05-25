@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "lib": [ "es2015", "es2017", "dom" ],
+    "module": "CommonJS",                         //指定生成哪個模塊系統代
+    "lib": [
+      "es2015",
+      "es2017",
+      "dom",
+      "es5",
+    ],
     "target": "es5",
     "outDir": "temp/vscode-dist",
     "allowJs": true,                            //允許編譯javascript文件。
@@ -13,7 +18,7 @@
     "forceConsistentCasingInFileNames": true,   //禁止對同一個文件的不一致的引用
     "isolatedModules": false,                   //將每個文件作為單獨的模塊（與“ts.transpileModule”類似）。
     "downlevelIteration" : true,                //允許for of 迭代
-    "noEmitHelpers" : false,                    //不在輸出文件中生成用戶自定義的幫助函數代碼，如__extends
+    "noEmitHelpers" : false                    //不在輸出文件中生成用戶自定義的幫助函數代碼，如__extends
   },
   "types": [
     "./@types/creator",

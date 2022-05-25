@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="313cb93a-d8ae-446a-bcef-6eadda2c10c9" name="变更" comment="" />
+    <list default="true" id="313cb93a-d8ae-446a-bcef-6eadda2c10c9" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/Test/PGSW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.ts/buildServiceWork.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/plugin/ServiceWork.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/plugin/ServiceWork.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sw.8ef2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sw.8ef2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sw.faf1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sw.faf1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/workbox-02d97836.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/workbox-02d97836.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.ts/build.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.ts/buildSW.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.ts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.ts/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ServiceWork.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServiceWork.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workbox-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/workbox-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workbox-dbd1f2be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workbox-dbd1f2be.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,15 +33,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28N4Nlf6LmVlgMHqxSzkxdTsUeV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,15 +57,17 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/games/game405&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/My_Game/workBoxVA/src&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\蕭立品\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\221.5080.193\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\蕭立品\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\221.5591.52\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My_Game\workBoxVA\src" />
       <recent name="D:\My_Game\workBoxVA" />
+      <recent name="D:\My_Game\workBoxVA\gulpfile.ts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\My_Game\workBoxVA\dist\plugin" />
@@ -47,7 +76,7 @@
       <recent name="D:\My_Game\workBoxVA\dist" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.generate-sw">
+  <component name="RunManager" selected="npm.gulp service work">
     <configuration name="generate-sw" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -68,10 +97,32 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="gulp sw" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="gulp sw" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="rollup sw" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="rollup sw" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.generate-sw" />
         <item itemvalue="npm.gulp service work" />
+        <item itemvalue="npm.rollup sw" />
+        <item itemvalue="npm.gulp sw" />
+        <item itemvalue="npm.generate-sw" />
       </list>
     </recent_temporary>
   </component>
@@ -85,10 +136,29 @@
       <updated>1651043672000</updated>
       <workItem from="1651043673186" duration="28838000" />
       <workItem from="1651214689099" duration="712000" />
+      <workItem from="1651230482012" duration="64000" />
+      <workItem from="1651738422074" duration="924000" />
+      <workItem from="1652858257694" duration="1447000" />
+      <workItem from="1652860297203" duration="368000" />
+      <workItem from="1652867844806" duration="6995000" />
+      <workItem from="1653278742922" duration="13208000" />
+      <workItem from="1653296485341" duration="1362000" />
+      <workItem from="1653303398788" duration="10795000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

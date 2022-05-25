@@ -14,7 +14,7 @@ const uglify = require('gulp-uglify');
 function cleanAsset(cb) {
     if (fs.existsSync('dist')) {
         console.log("cleanAsset");
-        return gulp.src(['dist/plugin/**'], {read: false, allowEmpty: true})
+        return gulp.src(['dist/serviceWork/**'], {read: false, allowEmpty: true})
             .pipe(clean({force: true}));
     } else {
         console.error("not found!");
@@ -53,7 +53,7 @@ function buildServiceWork(cb) {
                     //fcc-framework.js
                 }))
                 // .pipe(uglify())
-                .pipe(gulp.dest('dist/plugin')),
+                .pipe(gulp.dest('dist/serviceWork')),
             tsFrameWork.dts
                 .pipe(through.obj(function (chunk, enc, callback) {
                     let data = chunk.contents.toString();
@@ -61,7 +61,7 @@ function buildServiceWork(cb) {
                     this.push(chunk)
                     callback();
                 }))
-                .pipe(gulp.dest('dist'))
+                .pipe(gulp.dest('dist/serviceWork'))
         );
     } else {
         console.error("not found!");

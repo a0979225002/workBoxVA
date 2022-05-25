@@ -7,4 +7,5 @@ export default function build(cb: Function) {
     cb()
 }
 
-export {buildAsset as buildServiceWork} from "./build";
+export {buildAsset as buildServiceWork} from "./buildServiceWork";
+export {buildAssetSW as buildSW} from "./buildSW";

@@ -8,27 +8,40 @@
   },
   "scripts": {
     "generate-sw": "workbox generateSW src/workbox-config.js",
-    "gulp service work" : "gulp buildServiceWork"
+    "rollup sw": "rollup -c",
+    "gulp service work": "gulp buildServiceWork",
+    "gulp sw": "gulp buildSW"
   },
   "author": "Xion_Li_Pin",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/plugin-syntax-export-namespace-from": "^7.8.3",
+    "@babel/plugin-syntax-logical-assignment-operators": "^7.10.4",
+    "@babel/preset-env": "^7.18.0",
+    "babelify": "^10.0.0",
     "workbox-cli": "^6.5.3"
   },
   "dependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/preset-env": "^7.14.7",
     "fs": "^0.0.1-security",
     "gulp": "^4.0.2",
     "gulp-browserify": "^0.5.1",
     "gulp-clean": "^0.4.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
     "js-md5": "^0.7.3",
     "md5": "^2.3.0",
     "merge2": "^1.4.1",
+    "rollup-plugin-ts": "^1.4.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-uglify": "^6.0.4",
     "through2": "^0.4.2",
-    "gulp-uglify": "^3.0.2",
-    "ts-node": "^10.0.0"
+    "ts-node": "^10.0.0",
+    "workbox-cacheable-response": "^6.5.3",
+    "workbox-expiration": "^6.5.3",
+    "workbox-precaching": "^6.5.3",
+    "workbox-routing": "^6.5.3",
+    "workbox-strategies": "^6.5.3"
   }
 }
