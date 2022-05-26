@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="313cb93a-d8ae-446a-bcef-6eadda2c10c9" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/PGSW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.ts/buildServiceWork.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw-config.js" afterDir="false" />
+    <list default="true" id="313cb93a-d8ae-446a-bcef-6eadda2c10c9" name="变更" comment="更新">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/plugin/ServiceWork.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/plugin/ServiceWork.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sw.8ef2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sw.8ef2.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sw.faf1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sw.faf1.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/workbox-02d97836.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/workbox-02d97836.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.ts/build.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.ts/buildSW.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.ts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.ts/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServiceWork.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServiceWork.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/workbox-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/workbox-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/workbox-dbd1f2be.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/workbox-dbd1f2be.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,8 +122,16 @@
       <workItem from="1652867844806" duration="6995000" />
       <workItem from="1653278742922" duration="13208000" />
       <workItem from="1653296485341" duration="1362000" />
-      <workItem from="1653303398788" duration="10795000" />
+      <workItem from="1653303398788" duration="11479000" />
     </task>
+    <task id="LOCAL-00001" summary="更新">
+      <created>1653492681182</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653492681182</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,5 +147,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
 </project>
