@@ -39,7 +39,7 @@ module.exports = {
     // swSrc: `./sw-config2.js`,
 
     runtimeCaching: [{                                          //動態外部資源設定
-        urlPattern: new RegExp(/https:\/\/[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*.(?:js|css|plist|json|png|jpg|mp3|ico|php))/),
+        urlPattern: new RegExp(/^https:\/\/[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*.(?:js|css|plist|json|png|jpg|mp3|ico|php))/),
         handler: 'CacheFirst',                  // cache策略
         options: {
             cacheName: "asset",
